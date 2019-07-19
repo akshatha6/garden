@@ -1,0 +1,71 @@
+<app-swap></app-swap>
+<div class="navbar">
+        
+        <a routerLink='/buy'>
+          <span class="glyphicon glyphicon-shopping-cart" style="padding-top:15px;padding-left:1250px">cart</span>
+        </a>
+    </div>
+   
+   
+      
+ 
+
+     <div class="haaa"><h1>Order your products here</h1>
+<div class="row">
+        <div class="container">
+<tr *ngFor="let array of shopDetail ; let i=index" > 
+    <td *ngIf="i%4==0 && i< shopDetail.length ">
+<br>
+<mat-card style="width: 100% ;height: 100%">
+    
+
+       
+<div class="row">
+<div class="col-lg-3">
+
+
+<img src={{shopDetail[i].imagePath}} alt="" style="width:100%">
+<p>Item Price:
+ {{shopDetail[i].price}} </p>
+<p>Item Name:
+ {{shopDetail[i].name}} </p>
+<p><button mat-button-color="warn" (click)="addpost(array)" style="background-color: green;color:white">Add to cart</button></p>
+</div>
+
+
+<div class="col-lg-3">
+
+
+        <img src={{shopDetail[i+1].imagePath}} alt="" style="width:100%">
+        <p class="price">Item Price:{{shopDetail[i+1].price}} </p>
+        <p>Item Name: {{shopDetail[i+1].name}} </p>
+        <p><button mat-button-color="warn" (click)="addpost(array)" style="background-color: green;color:white">Add to cart</button></p>
+</div>
+
+
+<div class="col-lg-3">
+  <img src={{shopDetail[i+2].imagePath}} alt="" style="width:100%">  
+        <p class="price"> Item Price:{{shopDetail[i+2].price}} </p>
+        <p>Item Name:{{shopDetail[i+2].name}} </p>
+        
+        <p><button mat-button-color="warn" (click)="addpost(array)" style="background-color: green;color:white">Add to cart</button></p>
+
+</div>
+
+<div class="col-lg-3">
+
+<img src={{shopDetail[i+3].imagePath}} alt="" style="width:100%">
+        <p class="price"> Item Price:{{shopDetail[i+3].price}} </p>
+        <p>Item Name:{{shopDetail[i+3].name}} </p>
+        
+        <p><button mat-button-color="warn" (click)="addpost(array)" style="background-color: green;color:white">Add to cart</button></p>
+
+</div>
+
+
+
+
+</div>
+
+</mat-card>
+</td></tr>

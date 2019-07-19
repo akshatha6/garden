@@ -1,0 +1,23 @@
+<mat-toolbar>
+    <a routerLink="/login">Logout</a>
+    
+
+    
+</mat-toolbar>
+<div class=image>
+<h2>Menu</h2>
+<mat-accordion>
+        <mat-expansion-panel *ngFor="let i of postsDisplay">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{i.menu}}
+                </mat-panel-title>
+             </mat-expansion-panel-header>
+             <p>{{i.price}}</p>
+             
+        </mat-expansion-panel>
+    
+        
+    </mat-accordion>
+    </div>
+    

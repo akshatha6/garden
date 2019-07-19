@@ -1,0 +1,26 @@
+<mat-toolbar>
+    <a routerLink="/">Logout</a>
+    <a routerLink="/customer">User</a>
+    <a routerLink="/signup">Sign up</a>
+</mat-toolbar>
+<div class="image">
+<div class="a">
+<mat-card class="aa" >
+    <h2>Gardening</h2>
+    <form (submit)="adddish(postForm)" #postForm="ngForm">
+        <mat-form-field class="aa">
+                <mat-label class="aa">Menu</mat-label>
+            <input class="aa" matInput placeholder="Menu" name="menu" ngModel required #titleValue="ngModel"/>
+            <mat-error class="aaa" *ngIf="titleValue.invalid">menu not found</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+                <mat-label class="aa">Price</mat-label>
+            <input matInput placeholder="Prize" name="price" ngModel required #messagevalue="ngModel"/>
+            <mat-error class="aaa" *ngIf="messagevalue.invalid">price required</mat-error>
+        </mat-form-field>
+        <button mat-button  type="submit">Submit</button>
+    </form>
+</mat-card>
+<app-expansion></app-expansion>
+</div>
+</div>

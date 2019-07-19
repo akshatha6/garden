@@ -1,0 +1,451 @@
+
+
+.bg-grey {
+    background-color: #f6f6f6;
+  }
+  .jumbotron {
+   background-color: greenyellow;
+    color: black;
+    padding: 0px 25px;
+  }
+  .hello{
+    padding-top:40px;
+    background-color: lightgreen;
+  }
+  
+  .container-fluid {
+    padding: 30px 50px;
+  }
+  header.masthead {
+    text-align: center;
+    color: dar;
+    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    
+  }
+  
+  header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px;
+    }
+    header.masthead .intro-text .intro-lead-in {
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    header.masthead .intro-text .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+  }
+  
+  .item active{
+   
+    width:100%;
+  }
+  
+  .logo {
+    font-size: 200px;
+    color:green;
+    padding-top:40px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+  .column-33 {
+    float: right;
+    width:33.333%;
+    
+  }
+  .sad{
+   
+    height:600px;
+    width:100%;
+    background-repeat: no-repeat;
+    color:white;
+  
+   background-size:cover;
+   
+    border-radius: 50%;
+  
+  
+  }
+  
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .thumbnail {
+    
+    border: none;
+    border-radius: 0;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+  }
+  
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+  
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  
+  .item span {
+    font-style: normal;
+  }
+  
+  
+  
+  
+  
+  /*afternoon*/
+  html, body {
+    margin: 0;
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .container:hover > .section {
+    -webkit-filter: brightness(22%);
+            filter: brightness(22%);
+  }
+  .container:hover > .section:hover {
+    -webkit-filter: brightness(100%);
+            filter: brightness(100%);
+  }
+  .container .section {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    position: relative;
+    height: 100%;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    -ms-flex: 1;
+        flex: 1;
+  }
+  .container .section .cont_title {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 37vh;
+    /*.letter-container{
+      position: relative;
+      width: 2vw;
+      height: 100px;
+      position: relative;
+      margin: auto;
+      .lettering{
+      transition: all 0.3s;
+      color: white;
+      
+      span{
+        height: 10vw;
+        font-family: 'Economica', sans-serif;
+        font-size: 1.6vw;
+        text-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+        position: absolute;
+        width: 15px;
+        left: 0;
+        top: 0;
+        transform-origin: bottom center;
+      }
+      @include rotated-text(11);
+      }
+    }*/
+  }
+  .container .section .cont_title h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Economica', sans-serif;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 3.5vw;
+    margin: 0;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+    vertical-align: middle;
+  }
+  .container .section .cont_title h3 {
+    text-transform: uppercase;
+    font-family: 'Economica', sans-serif;
+    font-size: 1.3vw;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: yellowgreen;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .container .section .cont_desc {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 12vw;
+    height: auto;
+    margin: auto;
+    opacity: 0;
+    -webkit-transition: opacity 0.8s, padding-top 0.9s, -webkit-transform 0.7s;
+    transition: opacity 0.8s, padding-top 0.9s, -webkit-transform 0.7s;
+    transition: opacity 0.8s, transform 0.7s, padding-top 0.9s;
+    transition: opacity 0.8s, transform 0.7s, padding-top 0.9s, -webkit-transform 0.7s;
+    padding-top: 6vh;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .container .section .cont_desc p {
+    margin: 0;
+    font-family: 'Economica', sans-serif;
+    color: white;
+    font-size: 16px;
+  }
+  .container .section:hover {
+    -webkit-box-flex: 1.8;
+        -ms-flex-positive: 1.8;
+            flex-grow: 1.8;
+    -webkit-transition: -webkit-box-flex 0.2s;
+    transition: -webkit-box-flex 0.2s;
+    transition: flex 0.2s;
+    transition: flex 0.2s, -webkit-box-flex 0.2s, -ms-flex 0.2s;
+  }
+  .container .section:hover > .cont_title h1 {
+    font-size: 5.3vw;
+    -webkit-transition: font-size 0.4s;
+    transition: font-size 0.4s;
+  }
+  .container .section:hover > .cont_title h3 {
+    font-size: 1.6vw;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .container .section:hover > .cont_desc {
+    opacity: 1;
+    padding-top: 2vh;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    -webkit-transition: opacity 0.7s, padding-top 0.5s, -webkit-transform 0.1s;
+    transition: opacity 0.7s, padding-top 0.5s, -webkit-transform 0.1s;
+    transition: opacity 0.7s, padding-top 0.5s, transform 0.1s;
+    transition: opacity 0.7s, padding-top 0.5s, transform 0.1s, -webkit-transform 0.1s;
+    -webkit-transition-delay: 0s, 0.1s, 0s;
+            transition-delay: 0s, 0.1s, 0s;
+  }
+  .container .section:nth-child(1) {
+    background: url("https://images.pexels.com/photos/70365/forest-sunbeams-trees-sunlight-70365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg") center;
+  }
+  .container .section:nth-child(2) {
+    background: url("https://images.pexels.com/photos/1125776/pexels-photo-1125776.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260.jpeg") center;
+  }
+  .container .section:nth-child(3) {
+    background: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg") center;
+  }
+  .container .section:nth-child(4) {
+    background: url("https://images.theconversation.com/files/61594/original/y56vphpb-1413249886.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip.jpg") center;
+  }
+  .container .section:nth-child(5) {
+    background: url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80.jpg") center;
+  }
+  
+  
+  /*sgasukdygsikyfsdf*/
+  .how-section1{
+    margin-top:-15%;
+    padding: 10%;
+  }
+  .how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+  }
+  .how-section1 .row
+  {
+    margin-top: 10%;
+  }
+  .how-img 
+  {
+    text-align: center;
+  }
+  .how-img img{
+    width: 40%;
+  }
+  
+  
+  /*night*/
+  .auto-container{
+      position:static;
+      max-width:1200px;
+      padding:0px 15px;
+      margin:0 auto;
+  }
+  
+  .sec-title{
+      position:relative;
+      margin-bottom:45px;
+  }
+  
+  .sec-title .title{
+      position: relative;
+      color: #84858a;
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      
+      margin-bottom: 10px;
+      text-transform: capitalize;
+  }
+  
+  .sec-title .title:before{
+      position: absolute;
+      content: '';
+      left: 0px;
+      top: 0px;
+      width: 6px;
+      height: 6px;
+      background-color: #f43737;
+  }
+  
+  .sec-title h2{
+      position: relative;
+      color: #242f6c;
+      font-weight: 700;
+      line-height: 1.2em;
+      text-transform: capitalize;
+      -webkit-mask-image: linear-gradient(-75deg, rgba(244,55,55,0.6) 50%, #f43737 50%, rgba(0,0,0,1) 70%);
+      -webkit-mask-size: 200%;
+      animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+  
+  .sec-title.centered{
+      text-align: center;
+  }
+  
+  .sec-title.centered .text{
+      max-width:580px;
+      margin:0 auto;
+  }
+  
+  .sec-title .title.light::before{
+      background-color:#ffffff;
+  }
+  
+  .sec-title.light .title,
+  .sec-title.light h2,
+  .sec-title.light .text{
+      color:#ffffff;
+  }
+  
+  .sec-title.centered .title:before{
+      left:50%;
+      margin-left:-3px;
+  }
+  .haa{
+    text-align:center;
+    font-family:fantasy;
+  font-size:200%;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

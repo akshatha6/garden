@@ -1,0 +1,49 @@
+
+   
+            
+                    <div class="hii">
+                            <div class="wrapper fadeInDown">
+                                <div id="formContent">
+                                  <div class="fadeIn first">
+                                    <img src="http://www.coupofy.com/m/Store/content/HyHXvFyI.jpg" id="icon" alt="User Icon" />
+                                    <h1>GardenBuzz</h1>
+                                  </div>
+
+                      
+                <mat-card class="aa" >
+                    
+                    <form (submit)="validateUser(loginForm)" #loginForm="ngForm">
+                        <mat-form-field class="aa">
+                                <mat-label class="aa">User name</mat-label>
+                            <input  matInput  placeholder="User Name" type="text" name="loginID" ngModel required #loginID="ngModel"/>
+                          
+                            <mat-error class="aaa" *ngIf="loginID.invalid">Username required</mat-error>
+                    
+                            
+                        </mat-form-field>
+                        <mat-form-field>
+                                <mat-label class="aa">Password</mat-label>
+                            <input matInput placeholder="password" type="password" name="password" ngModel required #password="ngModel"/>
+                            <mat-error class="aaa" *ngIf="password.invalid">Password required</mat-error>
+                        </mat-form-field>
+                       
+                        <br>
+                        <button mat-button  type="submit">Login</button>
+                    </form>
+                        <br>
+                      <br>
+                        
+                        <p style="color:blue">Don't have an account?      <a routerLink='/signup'>Signup</a></p>
+                
+                </mat-card>
+                </div>
+                </div>
+                
+            </div>
+            
+                    
+                
+    
+          
+                
+                

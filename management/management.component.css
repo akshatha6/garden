@@ -1,0 +1,65 @@
+mat-form-field,
+textarea{
+    width: 100%;
+    height: 100px;
+    
+}
+
+button{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+.buttonCSS{
+    width: 150px;
+    height: 50px;
+}
+
+mat-card{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-color: rgba(153, 143, 143, 0.39);
+    
+}
+
+mat-toolbar{
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: black;
+    border: none;
+    margin-left: 20px;
+}
+
+.spacer{
+     margin-left: 70%; 
+}
+
+.image
+{
+   background-image: url('cs2.jpg');
+    background-repeat: no-repeat;
+    height:1200%;
+    width:100%;
+   background-size:cover;
+    
+    
+}
+.aaa
+{
+    color:#000d1a;
+    font-size: 15px;
+}
+.aa{
+    color:#000d1a;
+    font-size: 25px;
+}
+.a
+{
+    padding-bottom:280px;
+}

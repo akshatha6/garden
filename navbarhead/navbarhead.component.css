@@ -1,0 +1,552 @@
+/*--------------------------------------------------------------
+10.1. Top Header
+--------------------------------------------------------------*/
+.trovend-logo{width:60%;}
+.clear-fix{
+   clear: both;
+}
+.mar-0{
+   margin:0px !important;		
+}
+.padd-0{
+   padding: 0px !important;	
+}
+.col-padd-0{
+	padding-left:0px;
+	padding-right:0px;	
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;	
+}
+.text-left{
+	text-align:left;	
+}
+.active-link{
+	color:#ff6600;
+}
+.inline{
+	display:inline;
+}
+.img-contain {
+    width: 100%;
+    height:auto;
+    /* object-fit: contain; */
+}
+/* width */
+::-webkit-scrollbar {
+    width:8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px grey;
+    background-color: #151515;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0042ff; 
+		border-radius:60px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0002f0; 
+}
+#tophead {
+    background: #151515;
+    line-height: 24px;
+}
+
+#tophead .social-links {
+    clear: inherit;
+    float: left;
+}
+#tophead span.social-title {
+    float: left;
+    padding: 9px 20px;
+    color: #cecece;
+}
+#quick-contact {
+    float: left;
+    margin-top: 0;
+}
+#quick-contact > ul {
+    margin: 0;
+    padding: 0;
+}
+
+#quick-contact a {
+    color: #cecece;
+    display: inline-block;
+}
+
+#quick-contact a:hover {
+    color: #0042ff;
+}
+
+#quick-contact li.quick-email::before {
+    content: "\f0e0";
+}
+
+#quick-contact li.quick-call::before {
+    content: "\f2a0";
+}
+
+#quick-contact li.quick-address::before {
+    content: "\f0ac";
+}
+
+#quick-contact li::before {
+    color: #cecece;
+    content: "";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 11px;
+    margin-right: 5px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+#quick-contact li {
+    clear: inherit;
+    float: left;
+    font-size: 14px;
+    line-height: 0.8;
+    list-style: outside none none;
+    text-align: left;
+    font-weight: 400;
+    border-right:1px solid rgba(255, 255, 255, 0.15);
+    margin-right: 15px;
+    padding: 10px 15px 10px 0;
+    color: #cecece;
+}
+
+#tophead .section {
+    margin:0;
+}
+
+.header-social-wrapper {
+    float: right;
+}
+#tophead .social-links li {
+    display: block;
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 0px;
+    float: right;
+}
+
+#tophead .social-links li a::before {
+    color: #cecece;
+    line-height: 2.5;
+    font-size: 13px;
+    font-weight: 100;
+    text-shadow: none;
+}
+
+#tophead .social-links li a:hover::before {
+    color: #fff;
+}
+
+#tophead a.search-icon {
+    float: right;
+    display: block;
+    color: #cecece;
+    padding: 11px 15px;
+    font-size: 13px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#header-search {
+    position: relative;
+}
+.search-box-wrap {
+    background: #292929;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 45px;
+    padding: 24px 30px 16px;
+    z-index: 9991;
+}
+#tophead .quick-link a.btn, #tophead .quick-link a.btn:hover {
+    padding: 12px 35px;
+    font-size: 14px;
+    margin: 0;
+    border-radius: 0;
+    transform: inherit;
+}
+.quick-link {
+    float: right;
+}
+.social-links li a {
+    border: 2px solid #777;
+    display: inline-block;
+    height: 33px;
+    line-height: 1.7;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 33px;
+}
+#tophead .social-links li a {
+    border: none;
+    margin: 0;
+    width: 45px;
+    height: 45px;
+    padding: 6px 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-links ul li a::before {
+    color: #8c8c8c;
+    content: "\f0c1";
+    display: block;
+    font-family: FontAwesome;
+    font-weight: normal;
+    line-height: 2;
+    font-size: 14px;
+}
+.social-links ul li a[href*="linkedin.com"]:hover {
+    background-color: #007bb6;
+}
+.social-links ul li a[href*="linkedin.com"]::before {
+    content: "\f0e1";
+}
+.social-links ul li a[href*="twitter.com"]:hover {
+    background-color: #08a0e9;
+}
+.social-links ul li a[href*="twitter.com"]::before {
+    content: "\f099";
+}
+.social-links ul li a[href*="youtube.com"]:hover {
+    background-color: #bb0000;
+}
+.social-links ul li a[href*="youtube.com"]::before {
+    content: "\f167";
+}
+.social-links ul li a[href*="facebook.com"]:hover {
+    background-color: #3b5998;
+}
+.social-links ul li a[href*="facebook.com"]::before {
+    content: "\f09a";
+}
+.social-links ul li a[href*="skype.com"]:hover {
+    background-color: #00aff0;
+}
+.social-links ul li a[href*="skype.com"]::before {
+    content: "\f17e";
+}
+
+.social-links ul li a[href*="googleplus.com"]:hover {
+    background-color: #dc4538;
+}
+.social-links ul li a[href*="googleplus.com"]::before {
+    content: "\f0d5";
+}
+
+.btn, .btn:visited, button, .button, .btn.btn-primary, .btn.btn-primary:visited {
+    transition: all 0.3s ease 0s;
+    background: #0042ff;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 9px 26px;
+    border: none;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    position: relative;
+    border-radius: 0;
+    vertical-align: middle;
+}
+/**==================== Header ======================**/
+ .headertop {
+     padding: 28px 0 33px;
+}
+
+ .logo a{
+     display: block;
+}
+ .singMiddInfo{
+     position: relative;
+     padding-left: 50px;
+     float: left;
+     padding-top: 13px;
+     margin-left: 32px;
+}
+ .singMiddInfo.phone{
+     margin-left: 0;
+}
+ .singMiddInfo i{
+     font-size: 26px;
+     color: #ff5c00;
+     line-height: .8;
+     position: absolute;
+     left: 0;
+     top: 5px;
+     text-align: center;
+     padding: 13px 10px;
+}
+ .singMiddInfo h4{
+     color: #2c3e50;
+     font-size: 14px;
+     margin-bottom: 7px;
+}
+ .singMiddInfo p, .singMiddInfo a{
+     color: #ababab;
+     font-size: 12px;
+     margin: 0;
+     line-height: .8;
+     display: block;
+}
+ .singMiddInfo a:hover{
+     color: #ff5c00;
+}
+ .headMiddBtn {
+     margin: -2px 0;
+}
+ .headMiddBtn a {
+     background: #ff5c00;
+     color: #fff;
+     display: inline-block;
+     font-size: 15px;
+     font-weight: 700;
+     height: 51px;
+     line-height: 0.8;
+     padding: 18px 21px;
+     text-align: center;
+     text-shadow: 1px 0px 1px rgba(0, 0, 0, .30);
+}
+ .headMiddBtn a:hover{
+     color: #2C3E50;
+}
+ .preloader {
+     background: #fff none repeat scroll 0 0;
+     height: 100%;
+     width: 100%;
+     position: fixed;
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     z-index: 99999;
+}
+ .header{
+	position: fixed;
+    z-index: 5;
+    width: 100%;
+    background: #dce8f3;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+ .header.fixedHeader{
+	 background: #ffffff;
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     width: 100%;
+     z-index: 999;
+	 box-shadow: 0 10px 25px -2px rgba(38, 38, 38, 0.2);
+}
+
+.logo {
+    padding: 20px 0;
+}
+ .mainnav ul{
+     line-height: .8 
+}
+ .mainnav ul li {
+     display: inline-block;
+     margin-right: 30px;
+     margin-top: 31px;
+     padding-bottom: 26px;
+     position: relative;
+}
+.mainnav ul li a {
+    display: block;
+    color: #292929;
+    font-size: 14px;
+    line-height: .8;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+ .mainnav ul li:hover > a, .mainnav ul li.active a{
+    color: #0042ff;
+}
+
+ .mainnav ul ul.sub-menu {
+    background: #222;
+    left: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+    width: 240px;
+    z-index: 1;
+    margin-left: -100px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    padding-left: 0px;
+}
+ .mainnav ul li:hover ul.sub-menu{
+     top: 37px;
+     opacity: 1;
+     visibility: visible;
+     z-index:2;
+}
+ .mainnav ul ul.sub-menu li {
+     border-bottom: 1px solid #333;
+     display: block;
+     margin: 20px 20px 0px 20px ;
+     padding-bottom: 20px;
+}
+ .mainnav ul ul.sub-menu li:last-child{
+     border-bottom: none;
+}
+ .mainnav ul ul.sub-menu li a{
+     color: #fff;
+     font-size: 14px;
+     text-transform: capitalize;
+}
+ .mainnav ul ul.sub-menu li a:hover{
+     color: #0042ff;
+}
+a:hover {text-decoration:none !important;}
+ul.sub-menu li {
+    text-align: left;
+}
+
+/*======= media queries in css =======*/
+
+/*////////////// MEDIUM DEVICES LAPTOPS //////////////*/
+@media (min-width: 992px) and (max-width: 1199px){
+.container-mine {
+    width: 1000px;
+}	
+#quick-contact li {
+    clear: inherit;
+    float: left;
+    font-size: 12px;
+    line-height: 0.8;
+    list-style: outside none none;
+    text-align: left;
+    font-weight: 400;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    margin-right: 8px;
+    padding: 10px 8px 10px 0;
+    color: #cecece;
+}
+.header-social-wrapper {
+    float: right;
+    font-size: 12px;
+}
+#header-search{display: none;}
+.quick-link .btn, .btn:visited, button, .button, .btn.btn-primary, .btn.btn-primary:visited {
+    transition: all 0.3s ease 0s;
+    background: #ff6600;
+    color: #fff;
+    font-size: 12px !important;
+    line-height: 1.5;
+    padding: 13px 20px !important;
+    border: none;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    position: relative;
+    border-radius: 0;
+    vertical-align: middle;
+}
+.mainnav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 31px;
+    padding-bottom: 26px;
+    position: relative;
+}
+}
+
+/*////////////// TAB OR LARGE MOBILE PHONE //////////////*/
+@media (min-width: 768px) and (max-width: 991px){ 
+#quick-contact li {
+    clear: inherit;
+    float: left;
+    font-size: 13px;
+    line-height: 0.8;
+    list-style: outside none none;
+    text-align: left;
+    font-weight: 400;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    margin-right: 15px;
+    padding: 10px 15px 10px 0;
+    color: #cecece;
+}
+#header-search{display: none;}
+.header-social-wrapper{display: none;}
+.mainnav ul li a {
+    display: block;
+    color: #292929;
+    font-size: 12px;
+    line-height: .8;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+.trovend-logo{width:100%;}
+.theme_slider_title {
+    margin-top:60px;
+    padding-bottom: 0px !important;
+}
+
+}
+
+/*////////////// XTRA SMALL DEVICES( mobile phones ) //////////////*/
+@media (min-width: 300px) and (max-width: 479px){  
+#tophead{
+display:none;	
+}
+.mainnav ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: .8;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+    padding: 18px 12px 18px 20px;
+    border-bottom: 1px solid #dcdcdc;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+}
+.mainnav ul ul.sub-menu li {
+    display: block;
+    margin: 0px !important;
+    padding-bottom: 0px;
+}
+#main-navigation ul li.menu-item-has-children > a::after, #main-navigation ul li.page-item-has-children > a::after {
+    margin-right: 15px;
+}
+.themeHeadding h2 {
+    font-size: 20px;
+}
+.testmonial, .index .fillterProject {
+    padding-top: 60px !important;
+}
+}

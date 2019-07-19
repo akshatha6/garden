@@ -1,0 +1,165 @@
+#about {
+    background: #fff;
+    padding: 80px 0;
+  }
+
+  
+  #about .about-container .background {
+    min-height: 300px;
+    margin-bottom: 10px;
+    
+  }
+  .jumbotron
+  {
+    text-align:center;
+    background-image: url('http://walldiskpaper.com/wp-content/uploads/2014/09/Autumn-Landscape-Wallpapers-1366x768.jpg');
+    background-repeat: no-repeat;
+    height:400px;
+    width:100%;
+   background-size:cover;
+   
+  }
+  .team-img thumbnail
+  {
+    background-image: url('aksh.jpg');
+    background-image: url('ht.jpg');
+    background-image: url('spoo.jpg');
+    background-image: url('pallu.jpg');
+    height:300px;
+    
+  }
+
+  
+  #about .about-container .content {
+    background: #fff;
+    
+  }
+  
+  #about .about-container .title {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    #about .about-container .title {
+      padding-top: 15px;
+    }
+  }
+  
+  .hero-image{
+   
+    height: 150px;
+    width: 100px;
+
+  }
+
+  #about .about-container p {
+    line-height: 26px;
+  }
+  
+  #about .about-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  #about .about-container .icon-box {
+    background: #fff;
+    background-size: cover;
+    padding: 0 0 30px 0;
+  }
+  
+  #about .about-container .icon-box .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  
+    border: 2px solid #2dc997;
+  }
+  
+  #about .about-container .icon-box .icon i {
+    color: #2dc997;
+    
+    font-size: 24px;
+  }
+  
+  #about .about-container .icon-box .title {
+    margin-left: 80px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  #about .about-container .icon-box .title a {
+    color: #111;
+  }
+  
+  #about .about-container .icon-box .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+
+  header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
+  

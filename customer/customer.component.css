@@ -1,0 +1,25 @@
+mat-toolbar{
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+
+.spacer{
+     margin-left: 70%; 
+}
+.image
+{
+    background-image: url('cs4.jpg');
+   
+    background-repeat: no-repeat;
+    height:1200%;
+    width:100%;
+   background-size:cover;
+    padding-bottom: 600px;
+    
+}
